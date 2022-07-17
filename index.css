@@ -47,5 +47,8 @@ footer{
     list-style-type: none;
 }
 .output{
-    background-color: brown;
+    background-color: black; 
+}
+a{
+    text-decoration: none;
 }

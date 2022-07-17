@@ -4,6 +4,9 @@ const shedB=document.getElementById("shedB")
 const shedC=document.getElementById("shedC")
 const shedD=document.getElementById("shedD")
 const output=document.querySelector(".output")
+const daily=document.querySelector(".daily")
+const weekly=document.querySelector(".weekly")
+const monthly=document.querySelector(".monthly")
 const price=45
 
 
@@ -26,20 +29,33 @@ submit.addEventListener("click",function(){
     let pd=document.createElement("p")
     pd.innerHTML=`Your production in Shed D is ${shedD.value} litres per day`
     
-    output.appendChild(pa)
-    output.appendChild(pb)
-    output.appendChild(pc)
-    output.appendChild(pd)
+    daily.appendChild(pa)
+    daily.appendChild(pb)
+    daily.appendChild(pc)
+    daily.appendChild(pd)
 
     let pw=document.createElement("p")
     pw.innerHTML=`Your weekly income is ${incomeOverTime(price,7,total)} Kshs`
 
-    output.appendChild(pw)
+    weekly.appendChild(pw)
 
     let py=document.createElement("p")
     py.innerHTML=`Your yearly income is ${incomeOverTime(price,366,total)} Kshs`
 
-    output.appendChild(py)
+    weekly.appendChild(py)
+    
+    let months={
+        "January":31,"February":29,"March":31,"April":30,"May":31,"June":30,"August":31,"September":31,"October":30,"November":30,"December":31
+    }
+    for (const key in months) {
+       let pmonthly=document.createElement("p")
+       pmonthly.innerHTML=`Your income for ${key} is ${incomeOverTime(price,months[key],total)} Kshs`
+
+       monthly.appendChild(pmonthly)
+
+
+
+    }
     
 
 
