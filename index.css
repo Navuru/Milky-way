@@ -35,5 +35,17 @@ table{
 .center{
     text-align: center;
     /* color: rgba(17, 16, 16, 0.942); */
+    /* background-color: black; */
+}
+footer{
     background-color: black;
+    color: whitesmoke;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.output{
+    background-color: brown;
 }

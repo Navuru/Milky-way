@@ -1,7 +1,13 @@
 // alert ()
-const shedA=document.getElementById("ShedA").value
-const shedB=document.getElementById("ShedB").value
-const shedC=document.getElementById("ShedC").value
-const shedD=document.getElementById("ShedD").value
+const shedA=document.getElementById("shedA")
+const shedB=document.getElementById("shedB")
+const shedC=document.getElementById("shedC")
+const shedD=document.getElementById("shedD")
+const output=document.querySelector(".output")
 
-const submit=document.getElementById("")
+const submit=document.getElementById("button")
+submit.addEventListener("click",function(){
+    let total=shedA.value + shedB.value + shedC.value + shedD.value
+
+})
+r
