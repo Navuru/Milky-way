@@ -32,3 +32,8 @@ table{
     display: flex;
     justify-content: center;
 }
+.center{
+    text-align: center;
+    /* color: rgba(17, 16, 16, 0.942); */
+    background-color: black;
+}
