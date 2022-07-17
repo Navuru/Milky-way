@@ -52,3 +52,19 @@ footer{
 a{
     text-decoration: none;
 }
+.daily{
+    background-color: rgb(143, 238, 117);
+    border-color: brown;
+    padding: 30px;
+
+}
+.weekly{
+    background-color: rgb(13, 120, 33);
+    padding: 30px;
+
+}
+.monthly{
+    background-color: rgb(3, 64, 16);
+    padding: 30px;
+
+}
