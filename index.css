@@ -19,3 +19,10 @@ body{
 
 
 }
+span{
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    border: 5px;
+    background-color: green
+}
