@@ -26,7 +26,7 @@ span{
     width: 80px;
     height: 30px;
     border: 5px;
-    background-color: green
+    background-color: green;
 }
 table{
     display: flex;
@@ -34,8 +34,6 @@ table{
 }
 .center{
     text-align: center;
-    /* color: rgba(17, 16, 16, 0.942); */
-    /* background-color: black; */
 }
 footer{
     background-color: black;
@@ -45,9 +43,6 @@ footer{
     display: flexbox;
     justify-content: flex-end;
     list-style-type: none;
-}
-.output{
-    /* background-color: black;  */
 }
 a{
     text-decoration: none;
@@ -70,4 +65,12 @@ a{
     padding: 30px;
     width: 40%;
 
+}
+.submit{
+    padding: 10px;
+    width: auto;
+    align-items: center;
+    height: 30px;
+    border: 5px solid red;
+    background-color: green;
 }
