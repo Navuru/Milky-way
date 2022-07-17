@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(21, 122, 10);
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-weight: 900;
+}
+a{
+    color: white;
+}
+body{
+    width: 70%;
+    margin: auto;
+
+
+}
