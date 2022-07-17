@@ -19,10 +19,7 @@ body{
     margin: auto;
     background-image: url(Images/cow.webp);
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    
-
-
+    background-size:cover;
 }
 span{
     padding: 10px;
