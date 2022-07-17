@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(21, 122, 10);
+    background-color: rgba(18, 19, 18, 0.969);
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -9,6 +9,7 @@
 .font{
     font-family: 'Edu NSW ACT Foundation';
     font-size: xx-large;
+    color: whitesmoke;
 }
 a{
     color: white;
@@ -16,6 +17,10 @@ a{
 body{
     width: 70%;
     margin: auto;
+    background-image: url(Images/cow.webp);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
 
 
 }
