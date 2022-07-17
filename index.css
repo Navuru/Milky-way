@@ -66,11 +66,10 @@ a{
     width: 40%;
 
 }
-.submit{
-    padding: 10px;
-    width: auto;
-    align-items: center;
-    height: 30px;
-    border: 5px solid red;
-    background-color: green;
+li{
+    text-align: center;
+    
+}
+li :hover{
+    color: green;
 }
