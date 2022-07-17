@@ -42,12 +42,12 @@ footer{
     color: whitesmoke;
     height: 200px;
     width: 50%;
-    display: flex;
-    justify-content: center;
+    display: flexbox;
+    justify-content: flex-end;
     list-style-type: none;
 }
 .output{
-    background-color: black; 
+    /* background-color: black;  */
 }
 a{
     text-decoration: none;
@@ -56,15 +56,18 @@ a{
     background-color: rgb(143, 238, 117);
     border-color: brown;
     padding: 30px;
+    width: 40%;
 
 }
 .weekly{
     background-color: rgb(13, 120, 33);
     padding: 30px;
+    width: 40%;
 
 }
 .monthly{
     background-color: rgb(3, 64, 16);
     padding: 30px;
+    width: 40%;
 
 }
