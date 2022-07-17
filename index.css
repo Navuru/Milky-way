@@ -6,6 +6,10 @@
     padding-top: 20px;
     font-weight: 900;
 }
+.font{
+    font-family: 'Edu NSW ACT Foundation';
+    font-size: xx-large;
+}
 a{
     color: white;
 }
